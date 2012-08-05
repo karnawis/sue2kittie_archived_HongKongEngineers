@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>HKIE Canadian Chapter</title>
+<!-- TemplateEndEditable -->
+
+<link rel="stylesheet"  href="../css/meyer-reset.min.css">
+<link rel="stylesheet" href="../css/nivo-slider.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+<!--remove <div id="sub-wrapper">-->
+	<header>
+    <div id="logo" class="cl"><a href="../index.html"><img src="../images/hkiecc-logo.gif" width="258" height="102" alt="Hong Kong institution of Engineers in Canada logo"></a></div>
+	<div class="cl">
+        <h1>Hong Kong Institution of Engineers</h1> 
+        <h1>Canadian Chapter</h1>
+        <p>Excerpt</p>
+        
+    </div>
+    </header>
+    <nav id="main_nav">
+    	<ul>
+        	<li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../events.html">Events</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="#">Main Chapter</a></li>
+            <li><a href=""></a></li>
+
+        </ul>
+      
+    </nav>
+ 
+<section id="main">
+
+    <sidebar class="cl">
+        <nav>
+            <ul>
+                <li class="wite-border"><a href="#">Test</a><a href="../chairsmsg.html">Chair’s message</a></li>
+                <li class="orng-border"><img src="../images/eng-thumb-1.gif" width="124" height="100" alt="Engineering building"></li>
+                <li class="orng-border"><img src="../images/eng-thumb-2.gif" width="124" height="110" alt="Engineering building"></li>
+                <li class="wite-border"><a href="../resources.html">Resources</a></li>
+                <li class="wite-border"><a href="../journal.html">Journal</a></li>
+                <li class="orng-border"><img src="../images/eng-thumb-3.gif" width="124" height="110" alt="Engineering building"></li>
+                <li class="orng-border"><img src="../images/eng-thumb-4.gif" width="124" height="110" alt="engineer building"></li>
+                <li class="wite-border"><a href="../membernews.html">Member News</a></li>
+                <li class="wite-border"><a href="#"></a>Announcements</li>
+                <li class="orng-border"><img src="../images/eng-thumb-5.gif" width="180" height="120" alt="eng pic"></li>
+            </ul>
+        </nav>
+    </sidebar>
+    
+<a href="#"><img id="maple-leaf" class="cr" src="../images/maple-leaf.png" width="138" height="129" alt="Maple Leaf"></a>
+
+    <article id="content" class="cl">
+    
+	<!-- TemplateBeginEditable name="main-content" -->
+    <h2>HOME</h2>
+    <p>blah</p>
+    <!-- TemplateEndEditable -->
+    
+    </article>  
+      <div class="clearfix"></div>
+</section><!--#main-->   
+    
+<footer>
+    <p>Copyright © The HKIE & The HKIE Canadian Chapter 2012. <small> All rights reserved. </small> <img src="../images/canada_flag.gif" width="30" height="15" alt="Canada Flag"></p>
+</footer>
+
+<!--</div> #sub-wrapper-->
+</div><!--#wrapper-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="../js/jquery.nivo.slider.pack.js"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+
+
+</body>
+</html>

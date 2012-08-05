@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>HKIE Canadian Chapter | Contact</title>
+
+
+<link rel="stylesheet"  href="css/meyer-reset.min.css">
+<link rel="stylesheet" href="css/nivo-slider.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<style>
+form#contact_form {
+	width:450px;
+	background: #FFFAF4;
+	border: 2px solid #F89623;
+	padding: 40px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	-moz-box-shadow: 3px 3px 11px #888;
+	-webkit-box-shadow: 3px px 11px #888;
+	box-shadow: 3px 3px 11px #888;
+}
+
+legend, input, label, textarea, #submit {
+	font-family:Verdana, Geneva, sans-serif;
+	}
+legend, label, #submit{
+	font-weight:bold;
+}
+.error {
+	background: #F8A84B;
+	color: #FFF;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 2px 5px;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #666;
+}
+#submit{
+	width:200px;
+	height:30px;
+	background:#F8A84B;
+	border:1px solid #F7DBBB;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	text-shadow: 1px 1px 1px #666;
+	line-height:30px;
+	background-image: -webkit-linear-gradient(top,#F8A84B 0,#F7DBBB 100%);
+	background-image: linear-gradient(to bottom,#F8A84B 0,#F7DBBB 100%);
+}
+#submit:hover{
+	background:#F7DBBB;
+	background-image: -webkit-linear-gradient(top,#F7DBBB 0,#F8A84B 100%);
+	background-image: linear-gradient(to bottom,#F7DBBB 0,#F8A84B 100%);
+	}
+</style>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+<!--remove <div id="sub-wrapper">-->
+	<header>
+    <div id="logo" class="cl"><a href="index.html"><img src="images/hkiecc-logo.gif" width="258" height="102" alt="Hong Kong institution of Engineers in Canada logo"></a></div>
+	<div class="cl">
+        <h1>Hong Kong Institution of Engineers</h1> 
+        <h1>Canadian Chapter</h1>
+        <p>Excerpt</p>
+        
+    </div>
+    </header>
+    <nav id="main_nav">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Main Chapter</a></li>
+            <li><a href=""></a></li>
+
+        </ul>
+      
+    </nav>
+ 
+<section id="main">
+
+    <sidebar class="cl">
+        <nav>
+            <ul>
+                <li class="wite-border"><a href="#">Test</a><a href="chairsmsg.html">Chair’s message</a></li>
+                <li class="orng-border"><img src="images/eng-thumb-1.gif" width="124" height="100" alt="Engineering building"></li>
+                <li class="orng-border"><img src="images/eng-thumb-2.gif" width="124" height="110" alt="Engineering building"></li>
+                <li class="wite-border"><a href="resources.html">Resources</a></li>
+                <li class="wite-border"><a href="journal.html">Journal</a></li>
+                <li class="orng-border"><img src="images/eng-thumb-3.gif" width="124" height="110" alt="Engineering building"></li>
+                <li class="orng-border"><img src="images/eng-thumb-4.gif" width="124" height="110" alt="engineer building"></li>
+                <li class="wite-border"><a href="membernews.html">Member News</a></li>
+                <li class="wite-border"><a href="#"></a>Announcements</li>
+                <li class="orng-border"><img src="images/eng-thumb-5.gif" width="180" height="120" alt="eng pic"></li>
+            </ul>
+        </nav>
+    </sidebar>
+    
+<a href="#"><img id="maple-leaf" class="cr" src="images/maple-leaf.png" width="138" height="129" alt="Maple Leaf"></a>
+
+    <article id="content" class="cl">
+    
+	
+    <h2>Contact Us</h2>
+
+    <!--committe members link add an id of about.html#comittee members-->
+    <p>If you have any questions, comments or suggestions about this web site, 
+feel free to contact the <a href="about.html">Committee Members.</a></p>
+
+<p>Want to keep in touch. You can subscribe to our email list by sending email to <a href="mailto:webadmin@hkiecc.ca">webadmin@hkiecc.ca</a>.</p>
+<hr />
+
+ <form id="contact_form" method="post" action="form_process.php"> 
+ <legend>Contact Form</legend>
+ <sup>* Please fill in the required fields.</sup>
+  <p>
+    <label for="name">Name:<sup>*</sup><br><input type="text" name="name" id="name" class="field" size="60"><span id="name_error"></span></label>
+  </p>
+  <p>
+    <label for="phone">Telephone:<br><input type="tel" name="phone" id="phone" class="field" size="60"><span id="tel_error"></span></label>
+  </p>
+  <p>
+    <label for="email">Email address:<sup>*</sup><br><input type="text" name="email" id="email" class="field" size="60"><span id="email_error"></span></label>
+  </p>
+
+  <p>
+    <label for="message">Your message:<sup>*</sup><br><textarea name="message" id="message" class="field" cols="46" rows="5"></textarea><span id="message_error"></span></label>
+  </p>
+
+  <p>
+    <input type="submit" name="submit" id="submit" value="Send">
+  </p>
+
+</form>
+
+    
+    </article>  
+      <div class="clearfix"></div>
+</section><!--#main-->   
+    
+<footer>
+    <p>Copyright © The HKIE & The HKIE Canadian Chapter 2012. <small> All rights reserved. </small> <img src="images/canada_flag.gif" width="30" height="15" alt="Canada Flag"></p>
+</footer>
+
+<!--</div> #sub-wrapper-->
+</div><!--#wrapper-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script>
+$('#contact_form').submit(function(){
+var errors=0;
+//validate the name
+if($("#name").val()==""){
+	errors++;
+	$("#name_error").addClass("error").text("Please insert the required field");
+	//$('<span>please insert the required field</span>').insertAfter("#name_error").addClass("error");
+	//$("p").append("<strong>Hello</strong>");
+	} else {
+		$("#name_error").removeClass("error").text("");
+		}
+//if($('#email').val()=="" || $("#email").val().indexOf("@")<0){
+if($("#email").val()==""){
+	errors++;
+	$("#email_error").addClass("error").text("Please insert the required field");
+	} else {
+		$("#email_error").removeClass("error").text("");
+		}
+		
+/*
+Radio field - checkin if one of the button is checked
+if($(".call:checked").length<1){
+	errors++;
+	$("#called_error").addClass("error").text("Missing");
+	} else {
+		$("#called_error").removeClass("error").text("");
+	}
+*/
+if($('#message').val()==""){
+	errors++;
+	$("#message_error").addClass("error").text("please insert the required field");
+	//$('<span>please insert the required field</span>').insertAfter("#message_error").addClass("error");
+	} else {
+		$("#message_error").removeClass("error").text("");
+		}
+	if (errors>0){
+		return false;
+		}
+	});
+</script>
+
+
+</body>
+</html>
